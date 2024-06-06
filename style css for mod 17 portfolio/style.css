@@ -2,52 +2,58 @@ header {
     background-color: #3F4763;
 }
 
-.logo {
-    width: 23%;
+.navigation{
+    margin-left: 80%;
+}
+
+nav {
+    height: 5%;
+}
+
+.Logo {
     padding: 1%;
 }
 
 li {
-    display: inline-block;
-    vertical-align: top;  
     color: white;
     font-family: Kaisei HarunoUmi, 'Times New Roman', Times, serif, Helvetica, sans-serif;
-    font-size: 1rem;
-}
-
-.navigation { 
-    width: 50%;
-    padding: 2%;
-}
-
-.inline-block {
-    width: 50%;
-    margin-left: auto;
 }
 
 .heroImg {
-    height: 700px;
-    padding: 25px;
-    
+    height: 600px;
+    width:100%;
 }
 
-p {  font-family: Kaisei , 'Times New Roman', Times, serif, Helvetica, sans-serif;}
+.portrait {
+    height: 10%;
+    width: 15%;
+    margin-left:45%;
+}
 
-
-.content {
-    width: 500px;
-    margin: 0 auto;
+#shortBio {
+  font-family: Kaisei , 'Times New Roman', Times, serif, Helvetica, sans-serif;
+  font-size: medium;
+  width: 25%;
+  height: 15%;
+  padding: 2%;
+  margin: 10%;
 }
 
 footer {
     background-color: #373738;
     padding-left: 50%;
+    
 }    
-       
+
+a { 
+    color:white;
+    vertical-align:bottom;
+}   
+
 footer ul { 
     display: inline-block;
     vertical-align: top;
-    padding-bottom: 1%;
+    padding-bottom: 10%;
     text-align: center;
 }
 
@@ -55,6 +61,3 @@ ul li{
     padding-right: 50%;
 }
 
-a { 
-    color:white
-}
